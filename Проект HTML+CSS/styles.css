@@ -550,6 +550,7 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     margin-top: -76px;
+    margin-bottom: 242px;
 }
 
 .help__button {
@@ -567,8 +568,85 @@ button:hover {
     margin-right: 150px;
 }
 
+.examples {
+    background-image: url(./images/exapmles-background.png);
+    position: relative;
+    background-size: cover;
+    margin: 0;
+}
+
+.examples-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.examples-container {
+    height: 864px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.examples-container__content {
+    max-width: 285px;
+}
+
+.examples-container__content__head {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 137px;
+}
+
+.examples-container__content__item {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 9px;
+}
+
+.exmaples-container__images {
+    display: flex;
+}
+
+.exmaples-container__images__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 946px;
+    margin-top: -41px;
+}
+
+.exmaples-container__images__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 937px;
+    margin-top: -113px;
+    margin-left: 43px
+}
+
 .clients {
-    background-image: ;
+    height: 1100px;
+}
+
+.clients__headliner {
+    margin-top: 110px;
 }
 
 .clients__headliner__paragraph {
@@ -657,4 +735,123 @@ button:hover {
     line-height: 24px;
     color: #FFFFFF;
     margin-left: 15px;    
+}
+
+.contacts {
+    height: 953px;
+    background-image: url(./images/contacts-background.png);
+    background-size: cover;
+    position: relative;
+}
+
+.contacts-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.contacts__form {
+    margin-top: -222px;
+    background-color: black;
+    width: 883px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts__headline {
+    margin-top: -15px;
+}
+
+.contacts__form__input {
+    display: flex;
+    margin-top: 46px;
+    width: 520px;
+}
+
+.contacts__label { 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contacts__input {
+    background-color: black;
+    margin-bottom: 25px;
+    width: 231px;
+}
+
+.contacts__question__input {
+    background-color: black;
+    margin-bottom: 25px;
+    width: 516px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__form__submit {
+    margin-top: 50px;
+}
+
+.contacts__form__container {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-container__head {
+    margin-top: 52px;
+    width: 589px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.contacts-containe__head__container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__button {
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.contacts__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
 }
