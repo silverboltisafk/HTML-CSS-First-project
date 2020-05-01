@@ -163,6 +163,15 @@ button:hover {
     list-style: none;
 }
 
+.projects-navigation__item__p {
+    text-decoration: none;
+}
+
+a.projects-navigation__item__p:hover {
+    color: #E3B873;
+    border-bottom-style: solid;
+}
+
 .projects-container {
     display: flex;
     justify-content: space-between;
@@ -231,6 +240,22 @@ button:hover {
     margin-bottom: 34px;
     color: #FFFFFF;
     max-width: 110px;
+}
+
+.switch {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-top: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .headline-white {
@@ -362,6 +387,9 @@ button:hover {
 
 .repair {
     background-color: white;
+    background-image: url(./images/repair-background.png);
+    background-repeat: no-repeat;
+    background-position-y: 1026px;
 }
 
 .headline-black {
@@ -566,6 +594,7 @@ button:hover {
     background-color: white;
     margin-top: 18px;
     margin-right: 150px;
+    text-decoration: none;
 }
 
 .examples {
@@ -620,6 +649,15 @@ button:hover {
     margin-top: 9px;
 }
 
+.examples-container__content__item__p {
+    text-decoration: none;
+}
+
+a.examples-container__content__item__p:hover {
+    color: #E3B873;
+    border-bottom-style: solid;
+}
+
 .exmaples-container__images {
     display: flex;
 }
@@ -643,6 +681,7 @@ button:hover {
 
 .clients {
     height: 1100px;
+    background-image: url(./images/clients-background.png);
 }
 
 .clients__headliner {
@@ -668,7 +707,9 @@ button:hover {
 .clients__content__recomendation {
     max-width: 376px;
     height: 388px;
-    background-image: url(./images/client-content-background.png);
+    background-image: url(./images/client-content-background1.png);
+    background-position-x: -23px;
+    background-position-y: 8px;
 }
 
 .clients__content__recomendation__head {
