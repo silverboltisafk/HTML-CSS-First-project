@@ -35,7 +35,9 @@ button:hover {
     background-color: #E3B873;
 }
 
-
+li.header-navigation__item:hover {
+    color: #E3B873;
+}
 
 .container {
     max-width: 1300px;
