@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IC "Repair Design Project"</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="special-styless.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One&display=swap" rel="stylesheet">
 </head>
@@ -25,7 +26,7 @@
             </ul>
         </nav>
         <a class="tel" href="tel:+79287683239">+7 (928) 768-32-39</a>
-        <button class="button">Request a call</button>
+        <button class="button request-call__button">Request a call</button>
         </div>
     </header>
     <main>
@@ -33,8 +34,8 @@
             <div class="container hero-container">
                 <h1 class="title">Turnkey Repair in the city of <span class="highlight">Rostov-on-Don</span></h1>
                 <p class="paragraph">Get ready-made turnkey repairs on time <br> with work time saving up to 45 days and 20% from <br> cost of materials due to the organization of work</p>
-                <button class="button">calculate the cost</button>
-                <button class="button">submit your aplication</button>
+                <button class="button aplication__button">calculate the cost</button>
+                <button class="button aplication__button">submit your aplication</button>
             </div>
             <div class="hero-overlay"></div>
         </section>
@@ -48,11 +49,13 @@
                             <li class="projects-navigation__item"><a href="#" class="projects-navigation__item__p">rostov-on-don patriotic</a></li>
                         </ul>
                     </nav>
-                    <img src="./images/completed project.png" alt="completed project">
+                    <img class="projects-image" src="./images/completed project.png" alt="completed project">
                 </div>
                 <div class="projects-hero">
-                    <h2 class="projects-title">completed projects</h2>
-                    <p class="projects-paragraph">Only a small part of the work performed by our company is presented <br> on the site. For 14 years on in the construction <br> market we have made happy more than 1000 families</p>
+                    <div class="projects-hero__title">
+                        <h2 class="projects-title">completed projects</h2>
+                        <p class="projects-paragraph">Only a small part of the work performed by our company is presented <br> on the site. For 14 years on in the construction <br> market we have made happy more than 1000 families</p>
+                    </div>
                     <div class="repair-info">
                         <ul class="repair-info__list">
                             <li class="repair-info__list__item">
@@ -395,7 +398,7 @@
                 </ul>
             </nav>
             <a class="tel" href="tel:+79287683239">+7 (928) 768-32-39</a>
-            <button class="button">Request a call</button>
+            <button class="button request-call__button">Request a call</button>
             </div>
     </footer>
 </body>

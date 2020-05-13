@@ -87,6 +87,10 @@ li.header-navigation__item:hover {
     line-height: 15px;
     text-align: right;
     text-decoration-line: underline;
+    color: white;
+}
+
+a.tel:hover {
     color: #E3B873;
 }
 
