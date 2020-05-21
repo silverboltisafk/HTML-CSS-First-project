@@ -668,6 +668,10 @@ a.examples-container__content__item__p:hover {
     display: flex;
 }
 
+.mobile-examples {
+    display: none;
+}
+
 .exmaples-container__images__left {
     display: flex;
     flex-direction: column;
@@ -901,4 +905,8 @@ a.examples-container__content__item__p:hover {
     margin-top: 43px;
     display: flex;
     justify-content: center;
+}
+
+.mobile__map {
+    display: none;
 }

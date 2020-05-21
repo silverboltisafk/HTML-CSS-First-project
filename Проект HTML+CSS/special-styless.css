@@ -127,21 +127,20 @@ a.tel:hover {
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 53px;
+    font-size: 23px;
+    line-height: 132.83%;
     text-transform: uppercase;
     color: #FFFFFF;
-    max-width: 570px;
 }
+
 
 .paragraph {
     font-family: 'Nunito Sans', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 14px;
+    line-height: 135.84%;
     color: #FFFFFF;
-
 }
 
 .aplication__button {
@@ -198,6 +197,7 @@ a.projects-navigation__item__p:hover {
 
 .projects-image {
     margin-top: -486px;
+    margin-left: 14px;
     height: 242px;
 }
 
@@ -220,6 +220,7 @@ a.projects-navigation__item__p:hover {
     text-transform: uppercase;
     color: #E3B873;
     margin-top: 0;
+    text-align: center;
 }
 
 .projects-paragraph {
@@ -229,6 +230,12 @@ a.projects-navigation__item__p:hover {
     font-size: 14px;
     line-height: 27px;
     color: #FFFFFF;
+    text-align: center;
+}
+
+.repair-info {
+    margin-left: 18px;
+    max-width: 500px;
 }
 
 .repair-info__list {
@@ -242,6 +249,17 @@ a.projects-navigation__item__p:hover {
 
 .repair-info__list__item {
     width: 213px;
+}
+
+.repair-info__list__item__special-top {
+    margin-left: 175px;
+    position: absolute;
+}
+
+.repair-info__list__item__special-bottom {
+    margin-left: 175px;
+    position: absolute;
+    margin-top: 112px;
 }
 
 .repair-info__list__item__head {
@@ -284,7 +302,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .headline-white {
-    margin-top: -298px;
+    margin-top: -282px;
     margin-bottom: 13px;
     font-family: 'Yeseva One';
     font-style: normal;
@@ -297,7 +315,8 @@ a.projects-navigation__item__p:hover {
 }
 
 .online-control {
-    background-color: white;
+    background-color: black;
+    height: 487px;
 }
 
 .online-control-container {
@@ -318,19 +337,19 @@ a.projects-navigation__item__p:hover {
 
 .video {
     margin-top: 32px;
+    width: 340px;
+    height: 207px;
 }
 
 .online-control-container__paragraph {
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 37px;
+    font-size: 11px;
+    line-height: 169.8%;
     text-align: center;
-    color: #363636;
-    max-width: 681px;
-    height: 131px;
-    margin-top: 34px;
+    color: #FFFFFF;
+    height: 107px;
 }
 
 .label{
@@ -344,6 +363,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .input {
+    background-color: black;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: normal;
@@ -366,7 +386,8 @@ a.projects-navigation__item__p:hover {
 .form__input {
     display: flex;
     justify-content: space-between;
-    margin-top: 93px;
+    margin-top: -11px;
+    flex-direction: column;
 }
 
 .name {
@@ -393,6 +414,8 @@ a.projects-navigation__item__p:hover {
 }
 
 .submit {
+    position: absolute;
+    margin-top: 235px;
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
@@ -402,7 +425,7 @@ a.projects-navigation__item__p:hover {
     text-transform: uppercase;
     color: white;
     cursor: pointer;
-    width: 200px;
+    width: 286px;
 }
 
 .repair__container {
@@ -412,12 +435,13 @@ a.projects-navigation__item__p:hover {
 
 .repair {
     background-color: white;
-    background-image: url(./images/repair-background.png);
+    background-image: none;
     background-repeat: no-repeat;
     background-position-y: 1026px;
 }
 
 .headline-black {
+    margin-top: -76px;
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: normal;
@@ -435,7 +459,16 @@ a.projects-navigation__item__p:hover {
 .repair__content {
     margin-top: 26px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repair__content__designer {
+    margin-top: 59px;
+}
+
+.repair__content__overhaul {
+    margin-top: 59px;
 }
 
 .repair-info {
@@ -547,14 +580,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .repair__form__form {
-    background-color: black;
-    height: 509px;
-    width: 506px;
-    margin-top: 110px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    display: none;
 }
 
 .repair__label {
@@ -631,29 +657,27 @@ a.projects-navigation__item__p:hover {
 }
 
 .examples {
-    background-image: url(./images/exapmles-background.png);
+    background-image: none;
     position: relative;
     background-size: cover;
     margin: 0;
 }
 
 .examples-overlay {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
 }
 
 .examples-container {
+    margin-top: -194px;
     height: 864px;
     display: flex;
     justify-content: space-between;
     position: relative;
     z-index: 1;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .examples-container__content {
     max-width: 285px;
@@ -671,15 +695,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .examples-container__content__item {
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 38px;
-    color: #FFFFFF;
-    list-style: none;
-    margin-left: -40px;
-    margin-top: 9px;
+    display: none;
 }
 
 .examples-container__content__item__p {
@@ -692,7 +708,13 @@ a.examples-container__content__item__p:hover {
 }
 
 .exmaples-container__images {
-    display: flex;
+    display: none;
+}
+
+.mobile-examples {
+    display: block;
+    margin-top: 240px;
+    position: absolute;
 }
 
 .exmaples-container__images__left {
@@ -704,12 +726,7 @@ a.examples-container__content__item__p:hover {
 }
 
 .exmaples-container__images__right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 937px;
-    margin-top: -113px;
-    margin-left: 43px
+    display: none;
 }
 
 .clients {
@@ -813,20 +830,16 @@ a.examples-container__content__item__p:hover {
 }
 
 .contacts {
-    height: 953px;
-    background-image: url(./images/contacts-background.png);
+    height: 1486px;
+    background-image: none;
+    background-color: black;
     background-size: cover;
     position: relative;
+    margin-top: -505px;
 }
 
 .contacts-overlay {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
 }
 
 .contacts-container {
@@ -838,7 +851,7 @@ a.examples-container__content__item__p:hover {
 }
 
 .contacts__form {
-    margin-top: -222px;
+    margin-top: 123px;
     background-color: black;
     width: 883px;
     height: 445px;
@@ -853,6 +866,7 @@ a.examples-container__content__item__p:hover {
 }
 
 .contacts__form__input {
+    flex-direction: column;
     display: flex;
     margin-top: 46px;
     width: 520px;
@@ -885,7 +899,8 @@ a.examples-container__content__item__p:hover {
 }
 
 .contacts__form__submit {
-    margin-top: 50px;
+    margin-top: -182px;
+    margin-left: -287px;
 }
 
 .contacts__form__container {
@@ -894,7 +909,7 @@ a.examples-container__content__item__p:hover {
 }
 
 .contacts-container__head {
-    margin-top: 52px;
+    margin-top: 57px;
     width: 589px;
     font-family: 'Yeseva One';
     font-style: normal;
@@ -926,7 +941,16 @@ a.examples-container__content__item__p:hover {
 }
 
 .map {
-    margin-top: 43px;
+    display: none;
+}
+
+.mobile__map {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 193px;
+}
+
+.footer {
+    display: none;
 }

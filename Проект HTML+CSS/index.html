@@ -62,7 +62,7 @@
                                 <h4 class="repair-info__list__item__head">city</h4>
                                 <p class="repair-info__list__item__text">Rostov-on-Don LCD admiral</p>
                             </li>
-                            <li class="repair-info__list__item">
+                            <li class="repair-info__list__item repair-info__list__item__special-top">
                                 <h4 class="repair-info__list__item__head">apartment area:</h4>
                                 <p class="repair-info__list__item__text">81 m2</p>
                             </li>
@@ -70,7 +70,7 @@
                                 <h4 class="repair-info__list__item__head">repair time:</h4>
                                 <p class="repair-info__list__item__text">3.5 months</p>
                             </li>
-                            <li class="repair-info__list__item">
+                            <li class="repair-info__list__item repair-info__list__item__special-bottom">
                                 <h4 class="repair-info__list__item__head">Repair Cost:</h4>
                                 <p class="repair-info__list__item__text">Upon request</p>
                             </li>
@@ -112,8 +112,8 @@
                         <input class="submit" type="submit" value="Submit">
                     </div>
                     <div class="form__checkbox">
-                        <input type="checkbox" id="processing" name="processing" checked>
-                        <label class="input" for="processing">I agree to the processing of personal data</label>
+                        <input type="checkbox" name="processing" checked>
+                        <label class="input repair__input__checkbox" for="processing">I agree to the processing of personal data</label>
                     </div>
                 </form>
             </div>
@@ -228,7 +228,7 @@
                                 <input class="input repair__input" type="email" name="email" placeholder="Your email">
                             </div>
                             <div class="repair__form__checkbox form__checkbox">
-                                <input type="checkbox" id="processing" name="processing" checked>
+                                <input type="checkbox" name="processing" checked>
                                 <label class="label repair__input__checkbox" for="processing">I agree to the processing of personal data</label>
                             </div>
                         </div>
@@ -262,10 +262,13 @@
                         <li class="examples-container__content__item"><a href="#" class="examples-container__content__item__p">Eclecticism</a></li>
                     </ul>
                 </div>
+                <div class="mobile-examples">
+                    <img src="./images/example-left1-special.png" alt="example">
+                </div>
                 <div class="exmaples-container__images">
                     <div class="exmaples-container__images__left">
-                        <img src="./images/example-left1.png" alt="example">
-                        <img src="./images/example-left2.png" alt="example">
+                        <img class="example-left1" src="./images/example-left1.png" alt="example">
+                        <img class="example-left2" src="./images/example-left2.png" alt="example">
                     </div>
                     <div class="exmaples-container__images__right">
                         <img src="./images/example-right1.png" alt="example">
@@ -361,13 +364,16 @@
                         <input class="input contacts__question__input" type="question" name="question" placeholder="I want to know:">
                     </div>
                     <div class="contacts__form__checkbox form__checkbox">
-                        <input type="checkbox" id="processing" name="processing" checked>
+                        <input type="checkbox" name="processing" checked>
                         <label class="label repair__input__checkbox" for="processing">I agree to the processing of personal data</label>
                     </div>
                     <div class="contacts__form__submit">
                         <input class="submit" type="submit" value="submit">
                     </div>
                 </form>
+               </div>
+               <div class="mobile__map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A254cd68de7db0442f6712e707ec622c5bda73e311e8a6c02dbd9d064b0c44575&amp;width=925&amp;height=465&amp;lang=ru_RU&amp;scroll=true"></script>
                </div>
                <div class="contacts-containe__head__container">
                    <h4 class="contacts-container__head">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</h4>
@@ -382,7 +388,7 @@
             </div>
         </section>
     </main>
-    <footer class="header">
+    <footer class="header footer">
         <div class="container header-container">
             <div class="logo">
                 IC "Repair Design Project"
