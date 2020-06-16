@@ -20,7 +20,7 @@ body * {
     font-size: 11px;
     line-height: 15px;
     text-align: center;
-    width: 207px;
+    max-width: 207px;
     height: 51px;
     background-color: unset;
     border: 1px solid #FFFFFF;
@@ -190,7 +190,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .projects-container {
-    width: 400px;
+    max-width: 400px;
     display: grid;
     height: 1074px;
 }
@@ -248,7 +248,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .repair-info__list__item {
-    width: 213px;
+    max-width: 213px;
 }
 
 .repair-info__list__item__special-top {
@@ -288,13 +288,13 @@ a.projects-navigation__item__p:hover {
 .switch {
     display: none;
     justify-content: space-between;
-    width: 206px;
+    max-width: 206px;
     margin-top: 90px;
     margin-bottom: 0;
 }
 
 .dot {
-    width: 9px;
+    max-width: 9px;
     height: 9px;
     border-radius: 50%;
     margin-top: 3px;
@@ -337,7 +337,7 @@ a.projects-navigation__item__p:hover {
 
 .video {
     margin-top: 32px;
-    width: 340px;
+    max-width: 340px;
     height: 207px;
 }
 
@@ -425,7 +425,7 @@ a.projects-navigation__item__p:hover {
     text-transform: uppercase;
     color: white;
     cursor: pointer;
-    width: 286px;
+    max-width: 286px;
 }
 
 .repair__container {
@@ -481,7 +481,7 @@ a.projects-navigation__item__p:hover {
     flex-direction: column;
     margin-left: 20px;
     margin-top: -127px;
-    width: 330px;
+    max-width: 330px;
     height: 300px;
     position: relative;
 }
@@ -508,7 +508,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .repair__content__price {
-    width: 228px;
+    max-width: 228px;
     height: 54px;
     background: #E3B873;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
@@ -538,7 +538,7 @@ a.projects-navigation__item__p:hover {
 }
 
 .repair__form__content__item {
-    width: 703px;
+    max-width: 703px;
     height: 645px;
 }
 
@@ -550,7 +550,7 @@ a.projects-navigation__item__p:hover {
 .repair__form__content__item__image {
     background-image: url(./images/1.png);
     height: 81px;
-    width: 88px;
+    max-width: 88px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -596,7 +596,7 @@ a.projects-navigation__item__p:hover {
 .repair__input {
     background-color: black;
     margin-bottom: 25px;  
-    width: 408px;
+    max-width: 408px;
 }
 
 .repair__input__checkbox {
@@ -623,7 +623,7 @@ a.projects-navigation__item__p:hover {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 39px;
-    width: 265px;
+    max-width: 265px;
     height: 47px;
     margin-top: -25px;
 }
@@ -804,7 +804,7 @@ a.examples-container__content__item__p:hover {
 }
 
 .clients__recomendation__m-d__item {
-    width: 143px;
+    max-width: 143px;
     height: 54px;
     display: flex;
     align-items: center;
@@ -853,7 +853,7 @@ a.examples-container__content__item__p:hover {
 .contacts__form {
     margin-top: 123px;
     background-color: black;
-    width: 883px;
+    max-width: 883px;
     height: 445px;
     display: flex;
     flex-direction: column;
@@ -869,7 +869,7 @@ a.examples-container__content__item__p:hover {
     flex-direction: column;
     display: flex;
     margin-top: 46px;
-    width: 520px;
+    max-width: 520px;
 }
 
 .contacts__label { 
@@ -884,13 +884,13 @@ a.examples-container__content__item__p:hover {
 .contacts__input {
     background-color: black;
     margin-bottom: 25px;
-    width: 231px;
+    max-width: 231px;
 }
 
 .contacts__question__input {
     background-color: black;
     margin-bottom: 25px;
-    width: 516px;
+    max-width: 516px;
 }
 
 .question {
@@ -910,7 +910,7 @@ a.examples-container__content__item__p:hover {
 
 .contacts-container__head {
     margin-top: 57px;
-    width: 589px;
+    max-width: 589px;
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: normal;
@@ -931,7 +931,7 @@ a.examples-container__content__item__p:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    max-width: 50px;
     margin-right: 15px;
 }
 
