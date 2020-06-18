@@ -195,6 +195,7 @@ a.projects-navigation__item__p:hover {
     height: 1074px;
 }
 
+
 .projects-image {
     margin-top: -486px;
     margin-left: 14px;
@@ -337,7 +338,7 @@ a.projects-navigation__item__p:hover {
 
 .video {
     margin-top: 32px;
-    max-width: 340px;
+    max-width: 100%;
     height: 207px;
 }
 
@@ -717,6 +718,10 @@ a.examples-container__content__item__p:hover {
     position: absolute;
 }
 
+.mobile-examples__image {
+    max-width: 100%;
+}
+
 .exmaples-container__images__left {
     display: flex;
     flex-direction: column;
@@ -853,7 +858,7 @@ a.examples-container__content__item__p:hover {
 .contacts__form {
     margin-top: 123px;
     background-color: black;
-    max-width: 883px;
+    max-width: 100%;
     height: 445px;
     display: flex;
     flex-direction: column;
@@ -890,7 +895,7 @@ a.examples-container__content__item__p:hover {
 .contacts__question__input {
     background-color: black;
     margin-bottom: 25px;
-    max-width: 516px;
+    max-width: 45%;
 }
 
 .question {
